@@ -9,7 +9,7 @@ public class RegistrationObject  {
 
     private String email;
     private String phone;
-// the user name will authomatically generated for us
+// the user name will automatically generated for us
     private Date dateOfBirth;
     private String password;
 

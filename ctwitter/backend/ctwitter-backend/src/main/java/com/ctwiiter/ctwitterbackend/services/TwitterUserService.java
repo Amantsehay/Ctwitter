@@ -12,22 +12,16 @@ import com.ctwiiter.ctwitterbackend.repositories.TwitterUserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.PutMapping;
-import org.springframework.web.bind.annotation.RequestBody;
 
-import java.util.HashSet;
-import java.util.LinkedHashMap;
-import java.util.Random;
 import java.util.Set;
-import java.util.function.Supplier;
 
 @Service
 public class TwitterUserService {
 
     private final TwitterUserRepository twitterUserRepository;
     private final RoleRepository roleRepository;
-    private final MailService mailService;
-    private final PasswordEncoder passwordEncoder;
+    private final MailService mailService; // the mail service will be used to send the verification code
+    private final PasswordEncoder passwordEncoder; // the password encoder will use
 
 @Autowired
     public TwitterUserService(TwitterUserRepository twitterUserRepository, RoleRepository roleRepository,
