@@ -1,0 +1,33 @@
+.reg-step-counter-container{
+    display: flex;
+    z-index: 2;
+    align-items: center;
+    padding: 16px;
+
+}
+
+.reg-step-counter-btn{
+    z-index: 2;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    border: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+.reg-step-counter-btn:hover{
+    background-color: rgb(0, 0, 0, 0.1);
+    color: #000;
+}
+.reg-step-counter-text{
+  margin: 0;
+    padding: 0;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: Ubuntu, sans-serif;
+
+}

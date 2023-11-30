@@ -3,14 +3,40 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap');
 *{box-sizing: border-box;}
 
-html, body, root{
+
+html, body, #root {
+    font-family: 'Roboto', sans-serif;
     margin: 0;
-    padding:0;
-    height: 100%;
-    width: 100%;
+    padding: 0;
+    box-sizing: border-box;  
 }
-.bg-color
-{
-    background-color: white
+.bg-white {
+    background-color: white;
+}
+.color-white{
+    color: white;
+}
+.bg-blue{
+    background-color: blue;
+}
+
+.color-blue{
+    background-color: blue;
+}
+
+.bg-red{
+    background-color: red;
+}
+
+.color-red{
+    background-color: red;
+}
+
+.bg-gray{
+    background-color: gray;
+}
+
+.color-gray{
+    background-color: gray;
 }
 
